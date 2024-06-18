@@ -1,0 +1,128 @@
+# Directorio para dependencias de Node.js
+node_modules/
+
+# Archivos de registro
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Informes de diagnóstico (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Datos de ejecución
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directorio para bibliotecas instrumentadas generadas por jscoverage/JSCover
+lib-cov
+
+# Directorio de cobertura utilizado por herramientas como istanbul coverage
+coverage
+*.lcov
+
+# Caché de cobertura de nyc
+.nyc_output
+
+# Almacenamiento intermedio de Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Directorio de dependencias de Bower (https://bower.io/)
+bower_components
+
+# Configuración de node-waf
+.lock-wscript
+
+# Complementos binarios compilados (https://nodejs.org/api/addons.html)
+build/Release
+
+# Directorios de dependencias
+node_modules/
+jspm_packages/
+
+# Directorio de dependencias de Snowpack (https://snowpack.dev/)
+web_modules/
+
+# Caché de TypeScript
+*.tsbuildinfo
+
+# Directorio de caché de npm opcional
+.npm
+
+# Caché de eslint opcional
+.eslintcache
+
+# Caché de stylelint opcional
+.stylelintcache
+
+# Caché de Microbundle
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Historial opcional del REPL
+.node_repl_history
+
+# Salida de 'npm pack'
+*.tgz
+
+# Archivo de integridad de Yarn
+.yarn-integrity
+
+# Archivos de variables de entorno dotenv
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Caché y salida de parcel-bundler (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Salida de compilación de Next.js
+.next
+out
+
+# Salida de compilación/generación de Nuxt.js
+.nuxt
+dist
+
+# Archivos de Gatsby
+.cache/
+
+# Comentario en la línea pública si tu proyecto utiliza Gatsby y no Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+public
+
+# Salida de compilación de Vuepress
+.vuepress/dist
+
+# Directorio temporal y caché de Vuepress v2.x
+.temp
+.cache
+
+# Directorios de servidorless
+.serverless/
+
+# Caché de FuseBox
+.fusebox/
+
+# Archivos locales de DynamoDB
+.dynamodb/
+
+# Archivo de puerto de TernJS
+.tern-port
+
+# Almacena las versiones de VSCode utilizadas para probar las extensiones de VSCode
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
